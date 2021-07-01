@@ -3,7 +3,16 @@ import PropTypes from 'prop-types';
 import './button.css';
 
 /**
- * Primary UI component for user interaction
+ * Single line code block:
+ *
+ * ```jsx
+ * import Button from 'package'
+ * ```
+ *
+ * ```jsx
+ * // multiline code block
+ * import Button from 'package'
+ * ```
  */
 export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
